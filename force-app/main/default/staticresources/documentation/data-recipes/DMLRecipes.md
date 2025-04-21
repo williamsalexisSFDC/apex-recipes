@@ -23,7 +23,7 @@ public static Account insertAccountViaInsertKeywordInSystemMode(String name)
 | name | String | name of the created account |
 
 #### Return Type
-**Account**
+**[Account](https://github.com/trailheadapps/apex-recipes/wiki/Account)**
 
 the inserted Account
 
@@ -48,7 +48,7 @@ public static Account insertAccountViaInsertKeywordInUserMode(String name)
 | name | String | name of the created account |
 
 #### Return Type
-**Account**
+**[Account](https://github.com/trailheadapps/apex-recipes/wiki/Account)**
 
 the inserted Account
 
@@ -102,10 +102,10 @@ public static Account upsertAccountViaUpsertKeywordInSystemMode(Account acct)
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| acct | Account | account to upsert |
+| acct | [Account](https://github.com/trailheadapps/apex-recipes/wiki/Account) | account to upsert |
 
 #### Return Type
-**Account**
+**[Account](https://github.com/trailheadapps/apex-recipes/wiki/Account)**
 
 Upserted Account record
 
@@ -129,10 +129,10 @@ public static Account upsertAccountViaUpsertKeywordInUserMode(Account acct)
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| acct | Account | account to upsert |
+| acct | [Account](https://github.com/trailheadapps/apex-recipes/wiki/Account) | account to upsert |
 
 #### Return Type
-**Account**
+**[Account](https://github.com/trailheadapps/apex-recipes/wiki/Account)**
 
 Upserted Account record
 
@@ -156,7 +156,7 @@ public static Database.UpsertResult upsertAccountViaDatabaseMethod(Account acct,
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| acct | Account | The account object to upsert |
+| acct | [Account](https://github.com/trailheadapps/apex-recipes/wiki/Account) | The account object to upsert |
 | allOrNothing | Boolean | all or nothing flag |
 | accessLevel | System.AccessLevel |  |
 

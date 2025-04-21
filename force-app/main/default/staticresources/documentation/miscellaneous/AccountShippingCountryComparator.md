@@ -56,8 +56,8 @@ public Integer compare(Account a1, Account a2)
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| a1 | Account |  |
-| a2 | Account |  |
+| a1 | [Account](https://github.com/trailheadapps/apex-recipes/wiki/Account) |  |
+| a2 | [Account](https://github.com/trailheadapps/apex-recipes/wiki/Account) |  |
 
 #### Return Type
 **Integer**

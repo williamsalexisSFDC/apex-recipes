@@ -114,4 +114,4 @@ public Log__e toEvent()
 ```
 
 #### Return Type
-**Log__e**
+**[Log__e](https://github.com/trailheadapps/apex-recipes/wiki/Log__e)**

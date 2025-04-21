@@ -21,7 +21,7 @@ public static Database.SaveResult publishEvent(Event_Recipes_Demo__e event)
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| event | Event_Recipes_Demo__e | an `Event_Recipes_Demo__e` object |
+| event | [Event_Recipes_Demo__e](https://github.com/trailheadapps/apex-recipes/wiki/Event_Recipes_Demo__e) | an `Event_Recipes_Demo__e` object |
 
 #### Return Type
 **Database.SaveResult**
@@ -49,7 +49,7 @@ public static Database.SaveResult publishEventWithCallbacks(Event_Recipes_Demo__
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| event | Event_Recipes_Demo__e | an `Event_Recipes_Demo__e` object |
+| event | [Event_Recipes_Demo__e](https://github.com/trailheadapps/apex-recipes/wiki/Event_Recipes_Demo__e) | an `Event_Recipes_Demo__e` object |
 
 #### Return Type
 **Database.SaveResult**

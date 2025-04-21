@@ -96,7 +96,7 @@ private Contact getContactBySender(Messaging.InboundEmail email)
 | email | Messaging.InboundEmail |  |
 
 #### Return Type
-**Contact**
+**[Contact](https://github.com/trailheadapps/apex-recipes/wiki/Contact)**
 
 ---
 
@@ -114,7 +114,7 @@ private void createEmailRecord(Contact sender, Messaging.InboundEmail email)
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| sender | Contact |  |
+| sender | [Contact](https://github.com/trailheadapps/apex-recipes/wiki/Contact) |  |
 | email | Messaging.InboundEmail |  |
 
 #### Return Type

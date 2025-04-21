@@ -75,7 +75,7 @@ public static List<Account> dynamicFieldsBindingSOQLQuery(Account acct)
 #### Parameters
 | Name | Type | Description |
 |------|------|-------------|
-| acct | Account | Account to base the search off of |
+| acct | [Account](https://github.com/trailheadapps/apex-recipes/wiki/Account) | Account to base the search off of |
 
 #### Return Type
 **List&lt;Account&gt;**
