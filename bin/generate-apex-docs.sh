@@ -9,8 +9,8 @@ rm -fr force-app/main/default/staticresources/documentation && \
 # Generate Apex doc files
 apexdocs markdown -p global public private protected namespaceaccessible -s force-app/main/default && \
 
-# Remove doc index
-rm docs/index.md && \
+# # Remove doc index
+# rm docs/index.md && \
 
 # Flatten directory structure
 # find docs/* -mindepth 1 -type f -exec mv -i '{}' docs ';' && \
