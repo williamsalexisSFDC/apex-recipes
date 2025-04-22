@@ -6,6 +6,12 @@
 ## Fields
 ### Attendance Status
 
+**Compliance Category**
+PII
+
+**Security Classification**
+Internal
+
 **API Name**
 
 `AttendanceStatus__c`
