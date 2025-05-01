@@ -7,7 +7,7 @@ rm -fr docs && \
 rm -fr force-app/main/default/staticresources/documentation && \
 
 # Generate Apex doc files
-apexdocs markdown -p global public private protected namespaceaccessible -s force-app/main/default && \
+apexdocs markdown --includeFieldSecurityMetadata --includeInlineHelpTextMetadata -p global public private protected namespaceaccessible -s force-app/main/default
 
 # # Remove doc index
 # rm docs/index.md && \
@@ -16,11 +16,11 @@ apexdocs markdown -p global public private protected namespaceaccessible -s forc
 # find docs/* -mindepth 1 -type f -exec mv -i '{}' docs ';' && \
 
 # Remove empty folders
-find docs/* -type d -empty -delete && \
+# find docs/* -type d -empty -delete && \
 
 # Replace relative links and remove .md extension
-find docs/ -type f -name "*.md" -print0 | xargs -0 sed -i "" -E "s@]\(\.\/(.*)\.md@](https://github.com/trailheadapps/apex-recipes/wiki/\1@g" && \
-find docs/ -type f -name "*.md" -print0 | xargs -0 sed -i "" -E "s@\]\(\.\.\/.*\/(.*)\.md@](https://github.com/trailheadapps/apex-recipes/wiki/\1@g" && \
+# find docs/ -type f -name "*.md" -print0 | xargs -0 sed -i "" -E "s@]\(\.\/(.*)\.md@](https://github.com/trailheadapps/apex-recipes/wiki/\1@g" && \
+# find docs/ -type f -name "*.md" -print0 | xargs -0 sed -i "" -E "s@\]\(\.\.\/.*\/(.*)\.md@](https://github.com/trailheadapps/apex-recipes/wiki/\1@g" && \
 
 # Move docs
-mv docs force-app/main/default/staticresources/documentation
+# mv docs force-app/main/default/staticresources/documentation

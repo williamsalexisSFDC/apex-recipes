@@ -5,6 +5,8 @@
     <inlineHelpText>This is only on Contact for expediency</inlineHelpText>
     <label>Attendance Status</label>
     <required>false</required>
+    <complianceGroup>PII</complianceGroup>
+    <securityClassification>Internal</securityClassification>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
